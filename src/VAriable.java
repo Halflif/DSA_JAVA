@@ -17,9 +17,9 @@ public class VAriable {
         // 2) 숫자로 시작할 수 없다
         // 3) 예약어를 사용할 수 없다
         num2 = 300; // 오른쪽에 있는 값을 왼쪽에 넣겠다
-        System.out.println(num2);  // num2 상자에 들어있는 데이터를 출력
+        System.out.println(num2);  // num2 상자에 들어있는 데이터를 출력함
 
-        // int $_var%iable = 100;
+        // int $_variable = 100;
         // int 345var = 345;
         // 예악어 = 연주황색으로 나오는 글씨
         // 예악어는 작성과 동시에 그 작동을 실행하겠다라고 선언이 되기 때문에 이름으로 지정할 수 없다
