@@ -54,9 +54,7 @@ public class Practice01 {
         System.out.printf("타율: %.3f %n", hitRate);
         System.out.println("할푼리:" + n11 + "할" + n22 + "푼" + n33 + "리");
         System.out.printf("%d할%d푼%d리", n11,n22,n33);
-
-
-    }
+     }
 
 
 }
