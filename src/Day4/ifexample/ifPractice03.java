@@ -12,15 +12,11 @@ public class ifPractice03 {
         System.out.print("출생연도를 입력하세요 : ");
         int year;
         year = YEARS.nextInt();
-        if ((year%4==0) && (year%100 != 0) || (year%400) ==0  ) {
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400) == 0) {
             System.out.printf("당신의 출생연도인 %d년은 윤년입니다%n", year);
-        }  else {
-            System.out.printf("당신의 출생연도인 %d년은 윤년이 아닙니다%n", year);
+        } else {
+            System.out.printf("당신의 출생연도인 %d년은 평년입니다%n", year);
         }
-
-
-
-
 
 
     }
