@@ -14,6 +14,7 @@ public class Q2 {
         System.out.print("연산 기호를 입력하세요 (+, -, *, /): ");
         char op = input.next().charAt(0);
 
+        // 차라리 switch를 result로 선언을 해서 system.out 를 1최소화 하는 방법 고민해보기
         switch (op) {
             case '+':
                 System.out.println("결과: " + (num1 + num2));
@@ -34,9 +35,6 @@ public class Q2 {
                 break;
             default:
                 System.out.println("지원하지 않는 연산입니다.");
-
-    }
-
-
+        }
     }
 }
