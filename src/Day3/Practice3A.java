@@ -1,4 +1,4 @@
-package day3;
+package Day3;
 
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class Practice3A {
         value %= 50000;
 
         //만원권 게산
-        m1 =  value / 10000;
+        m1 = value / 10000;
         count += m1;
         value %= 10000;
 

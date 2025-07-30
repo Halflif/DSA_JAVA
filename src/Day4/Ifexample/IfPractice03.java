@@ -1,8 +1,8 @@
-package Day4.ifexample;
+package Day4.Ifexample;
 
 import java.util.Scanner;
 
-public class ifPractice03 {
+public class IfPractice03 {
     public static void main(String[] args) {
         // 숙제
         // 태어난 해가 윤년인지 확인하여 결과를 출력하세요

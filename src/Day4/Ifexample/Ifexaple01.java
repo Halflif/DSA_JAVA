@@ -1,6 +1,6 @@
-package Day4.ifexample;
+package Day4.Ifexample;
 
-public class ifexaple01 {
+public class Ifexaple01 {
     public static void main(String[] args) {
         // 조건문
         /*
@@ -16,9 +16,8 @@ public class ifexaple01 {
         String name = "철수";
         if (age >= 8) {
             System.out.println(name + "은(는) 학교에 다닙니다");
-        }else
-            if (age >= 8) {
-                System.out.println(name + "은(는) 학교에 다닙니다");
+        } else if (age >= 8) {
+            System.out.println(name + "은(는) 학교에 다닙니다");
         }
     }
 }

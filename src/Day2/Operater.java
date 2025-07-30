@@ -1,4 +1,4 @@
-package day2;
+package Day2;
 
 public class Operater {
     public static void main(String[] args) {
@@ -33,6 +33,7 @@ public class Operater {
         System.out.println(5 - 3);
         System.out.println(5 % 2);
 
+        System.out.println("증감연산자");
         // 증감연산자 -- 증감 연산자는 해당 값 자체가 변경이 된다
         int gameScore = 150;
         int lastScore = ++gameScore;
@@ -115,8 +116,6 @@ public class Operater {
         System.out.println(num1);
         num1 %= 2; // 나눗셈의 나머지
         System.out.println(num1);
-
-
 
 
     }

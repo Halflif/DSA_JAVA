@@ -1,4 +1,4 @@
-package day3;
+package Day3;
 
 import java.util.Scanner;
 
@@ -18,10 +18,10 @@ public class Practice02A {
         System.out.print("초 단위를 입력하세요 :");
         time = input.nextInt();
         //연산하기
-        hour = time/3600;
+        hour = time / 3600;
         time %= 3600;
-        minute = time/60;
-        sec = time%60;
+        minute = time / 60;
+        sec = time % 60;
         //서식 맞춰 출력하기
         System.out.printf("%d시간 %d분 %d초", hour, minute, sec);
 

@@ -1,4 +1,4 @@
-package day3;
+package Day3;
 
 public class StrFormatting {   // 데이터 format 변경
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class StrFormatting {   // 데이터 format 변경
          * %s = 문자열
          * %n = 줄바꿈
          * %x / %X = 16진수(소문자/대문자)
-        */ 
+         */
         double d = 123.45678;
         int n = 1234;
         String name = "홍길동";
@@ -27,13 +27,11 @@ public class StrFormatting {   // 데이터 format 변경
         System.out.printf("실수값 포맷팅 %f %n", d); //%f %n 사용
         System.out.printf("실수값 포맷팅 %.2f %n", d); //%.숫자f 소숫점 자리를 숫자 만큼만 표시한다
         System.out.printf("실수값 포맷팅 %10.2f %n", d); //%숫자1.숫자2f 숫자1만큼을 표시하는데 숫자2만큼의 소숫점 자리만큼만 표시한다
-                                                      // 숫자1만큼의 칸만큼 표시
+        // 숫자1만큼의 칸만큼 표시
         System.out.printf("실수값 포맷팅 %-10.2f %n", d); // %숫자1.숫자2f 숫자1만큼을 표시하는데 숫자2만큼의 소숫점 자리만큼만 표시한다
-                                                       // 숫자1만큼의 칸만큼 표시하여 왼쪽 정렬
+        // 숫자1만큼의 칸만큼 표시하여 왼쪽 정렬
         System.out.printf("실수값 포맷팅 %010.2f %n", d); //%0숫자1.숫자2f 숫자 1만큼 데이터를 표시하는데 숫자2만큼의 소숫점 자리만큼 표시하고
-                                                       // 남은 자리는 0으로 채워서 왼쪽 정렬을 한다
-
-
+        // 남은 자리는 0으로 채워서 왼쪽 정렬을 한다
 
 
     }

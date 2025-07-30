@@ -1,4 +1,4 @@
-package day3;
+package Day3;
 
 public class OperatorPrecedence { // 연산자 우선순위
     public static void main(String[] args) {
