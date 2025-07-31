@@ -87,7 +87,7 @@ public class Calculator2 {
                     System.out.print("두번째 숫자를 입력하세요");
                     int n2 = sc.nextInt();
                     if (n1 > n2) {
-                        n3 = n2;
+                        n3 = n1;
                         n1 = n2;
                         n2 = n3;
                     }
