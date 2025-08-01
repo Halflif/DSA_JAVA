@@ -46,5 +46,6 @@ public class nomar_operator {
 
         double avgScore = totalScore / 2.0;  // 평균구하기
         System.out.println(avgScore);
+
     }
 }
