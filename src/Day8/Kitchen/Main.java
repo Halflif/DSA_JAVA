@@ -7,9 +7,11 @@ public class Main {
 //        spicyRamen.noodleType = "매운라면";
 //        spicyRamen.soupType = "가루스프";
 
+        Ramen mildRamen = new Ramen("안메운 라면", "액상스프");
+        spicyRamen = mildRamen;
         // 조리 시작
         spicyRamen.cook();
-        System.out.println(spicyRamen.isCooked);
+        System.out.println(spicyRamen.getIscooked);
         // 라면이라는 추상적 개념 -> 클래스
         // 인스턴스는 그 실체인 라면봉지
         // 클래스를 통해 생성된 실체를 인스턴스라고 부름

@@ -4,7 +4,7 @@ public class Student {
     // 객체란? 현실세계의 사물이나 개념을 프로그래밍적으로 표현한 것 또는
     // 그 표현을 코드로 구현해 생성된 실체(인스턴스)
     // 필드 : 객체의 상태(객체가 아는 것)
-    String name;
+    public String name;
     int math;
     int eng;
     int kor;

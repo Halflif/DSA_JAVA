@@ -3,11 +3,12 @@ package Day8.Kitchen;
 // class는 하나의 설계도인 느낌
 // 뼈대는 어떻게 만들 것인지, 시멘트는 어떻게 만들어서 뭘 부을 것인지, 골조는 어떤게 올릴 것인지, 창문은 어떻게 달 것인지 등등등....
 public class Ramen {
+    public boolean getIscooked;
     // 필드
     // 선언을 하는 순간 Framework가 생성된다 생각
-    String noodleType;
+    public String noodleType;
     String soupType;
-    boolean isCooked;
+    private boolean isCooked;
 
     // 생성자? 클래스 이름과 같은 이름을 가진 메서드
     // 객체가 생성될 때 호출되어 객체의 초기 상태를 설정하는 특수 한 메서드
@@ -43,11 +44,17 @@ public class Ramen {
         }
     }
 
-    void cook() {
+    public void cook() {
         boilWater();
         addNoodles();
         addSoup();
         isCooked = true;
         System.out.println("라면이 완성되었습니다..");
+
     }
+
+    public boolean getIscooked() {
+        return isCooked;
+    }
+
 }
