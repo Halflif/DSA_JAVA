@@ -1,7 +1,7 @@
 package Day9.encapulation;
 
 public class Phone {
-    private String model;
+    private static String model;
     private Double price;
 
     public Phone(String model, double price) {
@@ -9,5 +9,20 @@ public class Phone {
         this.price = price;
     }
 
+    public static String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 }
 

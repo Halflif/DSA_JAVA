@@ -1,6 +1,7 @@
 package Day9.encapulation;
 
 public class PhoneStoreTest {
+
     public static void main(String[] args) {
         // 휴대폰 공장에서 생산
         Phone iphone = new Phone("아이폰", 1000000);
@@ -12,6 +13,9 @@ public class PhoneStoreTest {
         Customer customer = new Customer("김형근", 1000000);
 
         //손님이 구매를 한다
-        
+        customer.buyPhone(store);
     }
+
 }
+
+
